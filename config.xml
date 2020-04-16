@@ -9,8 +9,8 @@
         Children Bracelet for Al-Hajj and Al-Umrah - admin side
     </description>
 
-    <author href="http://reemaasaad.org" email="reema.asaad@yahoo.com">
-        Reema Asaad
+    <author email="nuhaahmadmaqtari@gmail.com">
+        nuha ahmad
     </author>
 	
 	<plugin name="cordova-plugin-whitelist" source="npm"  />
