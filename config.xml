@@ -14,8 +14,9 @@
     </author>
 	
 	<plugin name="cordova-plugin-whitelist" source="npm"  />
+	<plugin name="cordova-plugin-camera" source="npm"  />
 	 
-    <preference name="webviewbounce" value="false" />
+    <preference name="permissions" value="none" />
 
     <access origin="*"/>
     <allow-intent href="http://*/*" />
@@ -24,6 +25,10 @@
 	<allow-navigation href="https://www.google.com/maps/embed/*" />
 	
 	<icon src="icon file.png" />
-
+	
+    <feature name="http://api.phonegap.com/1.0/camera" />
+	<feature name="http://api.phonegap.com/1.0/file" />
+	<feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
 	
 </widget>
