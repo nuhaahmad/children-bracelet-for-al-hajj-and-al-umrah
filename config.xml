@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
-        id    = "com.nuhaahmadmaqtari.esignatureaPP"
+        id    = "com.reemaasaad.esignatureaPP"
         >
 
     <name> Children Bracelet - admin	</name>
@@ -9,8 +9,8 @@
         Children Bracelet for Al-Hajj and Al-Umrah - admin side
     </description>
 
-    <author email="nuhaahmadmaqtari@gmail.com">
-        nuha ahmad
+    <author href="http://reemaasaad.org" email="reema.asaad@yahoo.com">
+        Reema Asaad
     </author>
 	
 	<plugin name="cordova-plugin-whitelist" source="npm"  />
