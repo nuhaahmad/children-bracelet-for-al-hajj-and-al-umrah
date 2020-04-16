@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        id    = "com.reemaasaad.esignatureaPP"
+        >
+
+    <name> Children Bracelet - admin	</name>
+
+    <description>
+        Children Bracelet for Al-Hajj and Al-Umrah - admin side
+    </description>
+
+    <author href="http://reemaasaad.org" email="reema.asaad@yahoo.com">
+        Reema Asaad
+    </author>
+	
+	<plugin name="cordova-plugin-whitelist" source="npm"  />
+	 
+    <preference name="webviewbounce" value="false" />
+
+    <access origin="*"/>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+	
+	<allow-navigation href="https://www.google.com/maps/embed/*" />
+	
+	<icon src="icon file.png" />
+
+	
+</widget>

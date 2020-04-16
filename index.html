@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Children Bracelet for Al-Hajj and Al-Umrah</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" 	href="css/font-awesome.min.css" type="text/css" media="all">
+<!--// css -->
+<!-- font -->
+<link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- //for-mobile-apps -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+						$(document).ready(function() {
+						$("#button").click(function () {
+						
+						var chat = $('#email').val();
+						var Password = $('#password').val();
+						
+						if(chat==''|| Password=='')
+						{
+						alert ("Please Enter your ID and Password");
+						}
+						else {
+						$.ajax({
+						type: "POST",
+						url: "http://r-projects-website.000webhostapp.com/a_signin.php",
+						data: {
+						data: chat,
+						pass: Password
+						},
+						success: function (msg){
+						$('#result').html(msg);
+						},
+						error: function () {
+						alert('error');
+						} }); } }); });
+						</script>
+</head>
+<body>
+	<div class="main-w3">
+	<br/>
+		<h1 style="font-size: 20px;"> Children Bracelet for Al-Hajj and Al-Umrah - Admin Side</h1>
+		<br/>
+			<div class="login-agile">
+				<div class="login-top">
+					<h4>Login Here</h4>
+				</div>
+				
+				<br/><div id="result"></div><br/>
+				<form>
+					<div class="email">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<input type="text" id="email" name="email" class="user" placeholder="Email">
+					</div>
+					
+					<div class="pw">
+						<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+						<input type="password" id="password" name="password" class="pw" placeholder="Password">
+					</div>
+					<input type="button" id="button" value="Submit">
+				</form>
+			</div>
+		</div>
+
+		<br/><br/>
+		<div class="clearfix"></div>
+		<div class="footer-agileits-w3layouts">
+			<p class="agileinfo"> &copy; 2020 Children Bracelet for Al-Hajj and Al-Umrah . All Rights Reserved </p>
+		</div>
+	</div>
+	<!--  player js -->
+
+</body>
+</html>
